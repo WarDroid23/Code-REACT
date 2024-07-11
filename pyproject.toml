@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "code-react"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "code_react"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+p = "1.4.0"
+p2p = "1.4.5"
+p22p = "0.4.2"
+p1 = "1.0.1"
+p2 = "1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
